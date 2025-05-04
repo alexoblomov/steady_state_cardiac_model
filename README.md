@@ -14,7 +14,7 @@ cd circulation_with_gravity
 create a python virtual environment (tested on ubuntu 18.04.6)
 
 ```
-pyenv virtualenv 3.9.0 circulation_model
+pyenv virtualenv 3.13.1 circulation_model
 pyenv activate circulation_model
 ```
 
@@ -28,7 +28,7 @@ checkout the version of the model you want to run:
 e.g. steady state model is on the main branch in the steady-state folder
 
 ```
-cd ../steady_state/
+cd steady_state
 python varyG_conventional_units.py 
 ```
 for plots used in the paper, checkout the steady_state_plots branch
