@@ -79,7 +79,7 @@ Csa = Csa_l + Csa_u
 Cpa = (0.00412 / 1333) * 1000
 Cpv = (0.01 / 1333) * 1000
 Cp = Cpa + Cpv
-Vtotal = 6.061 * 1000
+Vtotal = 4.656 * 1000
 
 
 # Gs = 1 / Rs_u + 1 / Rs_l
