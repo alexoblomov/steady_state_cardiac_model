@@ -22,7 +22,7 @@ dP_RA = 2 * 1333
 # fluid dynamics)
 
 Hu_patient = 0.5*32 # (heart 2 eyeball)
-Hl_patient = -0.5*42 # (heart 2 seat)
+Hl_patient = -0.5*43 # (heart 2 seat)
 lumped_height = Hu_patient + (-Hl_patient)
 
 Hu_factor = 1/3
@@ -33,7 +33,7 @@ rho = 1
 g_earth = 980
 
 # resistance of systemic arteries
-Rs = (15.66) * 1333 / (1000 / 60)
+Rs = (16.733) * 1333 / (1000 / 60)
 
 Gs = 1 / Rs
 Gs_u = Hu_factor * Gs
@@ -79,7 +79,7 @@ Csa = Csa_l + Csa_u
 Cpa = (0.00412 / 1333) * 1000
 Cpv = (0.01 / 1333) * 1000
 Cp = Cpa + Cpv
-Vtotal = 4.312 * 1000
+Vtotal = 4.902 * 1000
 
 
 # Gs = 1 / Rs_u + 1 / Rs_l
