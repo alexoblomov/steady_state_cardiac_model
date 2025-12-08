@@ -24,6 +24,10 @@ def main():
     plt.plot(gz_list, hr_list, 'r.', label="data points")
     
     plt.axis((0, 4, 40, 200))
+    
+    plt.ylabel(r"$\mathrm{Heart rate}$  $\mathrm{(beats/s)}$")
+    plt.xlabel(r"$+\mathrm{Gz}$ $(g$ $\mathrm{multiple})$")
+    
     plt.legend(loc="upper right")
 
     plt.savefig("combined_data.png")

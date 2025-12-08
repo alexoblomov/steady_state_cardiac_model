@@ -65,6 +65,16 @@ C_LVD = (0.00583 / 1333) * 1000
 Csv_l = Hl_factor * (0.09 / 1333) * 1000 
 Csv_u = Hu_factor * (0.09 / 1333) * 1000 
 
+# whole body compliance values from the literature
+# 0.000141, 0.00175
+# or can calculate individual compliance using formula 
+# in the supplementary materials section : "Choosing Sytemic Compliance Coefficients"
+
+
+# Csa_l = Hl_factor * (0.00175 / 1333) * 1000
+# Csa_u = Hl_factor * (0.00175 / 1333) * 1000
+# print("CSA L ", Csa_l, "csa U", Csa_u)
+
 Csa_l = (0.000141 / 1333) * 1000
 Csa_u = Csa_l
 
