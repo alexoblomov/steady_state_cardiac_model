@@ -15,6 +15,10 @@ density is in g/cm3
 On 11/11/25- this parameter sheet was edited ~45 times to test the output using parameters fron different patients spun in the centrifuge. The variables altered baed on the values from the actual patients were Hu_patient, Hi_patient, Rs, Csa_l, Csa_u, Vtotal.
 The actual patient identification numbers and values are no longer listed here for patient privacy. The values have been reverted to the original participant.
 
+On 1/3/26- this parameter sheet was edited numerous times to induce targeted changes
+in the  output Gz (1.0G change when possible) from the baseline numbers. This was done
+by altering the input parameters individually. The parameter sheet is now in the original values.
+
 """
 color_map = 'inferno'
 Psa_u_star = 100 * 1333
@@ -37,7 +41,7 @@ rho = 1
 g_earth = 980
 
 # resistance of systemic arteries
-Rs = (15.66) * 1333 / (1000 / 60)
+Rs = (16.49) * 1333 / (1000 / 60)
 
 Gs = 1 / Rs
 Gs_u = Hu_factor * Gs
@@ -65,8 +69,8 @@ C_LVD = (0.00583 / 1333) * 1000
 
 #currently set systemic compliances- CSA so that the 0.00175L/mmHG value with Hi/Hu are used for compliances
 
-Csa_l = Hl_factor *(1.1*0.00175 / 1333) * 1000
-Csa_u = Hu_factor * (1.1*0.00175 / 1333) * 1000
+Csa_l = Hl_factor *(0.00175 / 1333) * 1000
+Csa_u = Hu_factor * (0.00175 / 1333) * 1000
 
 Csv_l = Hl_factor * (0.09 / 1333) * 1000 
 Csv_u = Hu_factor * (0.09 / 1333) * 1000 
@@ -83,7 +87,7 @@ Csa = Csa_l + Csa_u
 Cpa = (0.00412 / 1333) * 1000
 Cpv = (0.01 / 1333) * 1000
 Cp = Cpa + Cpv
-Vtotal = 4.77 * 1000
+Vtotal = 3.7 * 1000
 
 
 # Gs = 1 / Rs_u + 1 / Rs_l
