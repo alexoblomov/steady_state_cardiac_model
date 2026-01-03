@@ -65,8 +65,8 @@ C_LVD = (0.00583 / 1333) * 1000
 
 #currently set systemic compliances- CSA so that the 0.00175L/mmHG value with Hi/Hu are used for compliances
 
-Csa_l = Hl_factor *(4.9*0.00175 / 1333) * 1000
-Csa_u = Hu_factor * (4.9*0.00175 / 1333) * 1000
+Csa_l = Hl_factor *(0.05*0.00175 / 1333) * 1000
+Csa_u = Hu_factor * (0.05*0.00175 / 1333) * 1000
 
 Csv_l = Hl_factor * (0.09 / 1333) * 1000 
 Csv_u = Hu_factor * (0.09 / 1333) * 1000 
