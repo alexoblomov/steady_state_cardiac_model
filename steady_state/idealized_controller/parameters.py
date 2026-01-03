@@ -37,7 +37,7 @@ rho = 1
 g_earth = 980
 
 # resistance of systemic arteries
-Rs = (15.66*0.25) * 1333 / (1000 / 60)
+Rs = (15.66) * 1333 / (1000 / 60)
 
 Gs = 1 / Rs
 Gs_u = Hu_factor * Gs
@@ -65,8 +65,8 @@ C_LVD = (0.00583 / 1333) * 1000
 
 #currently set systemic compliances- CSA so that the 0.00175L/mmHG value with Hi/Hu are used for compliances
 
-Csa_l = Hl_factor *(1.1*0.00175 / 1333) * 1000
-Csa_u = Hu_factor * (1.1*0.00175 / 1333) * 1000
+Csa_l = Hl_factor *(4.9*0.00175 / 1333) * 1000
+Csa_u = Hu_factor * (4.9*0.00175 / 1333) * 1000
 
 Csv_l = Hl_factor * (0.09 / 1333) * 1000 
 Csv_u = Hu_factor * (0.09 / 1333) * 1000 
