@@ -37,7 +37,7 @@ rho = 1
 g_earth = 980
 
 # resistance of systemic arteries
-Rs = (15.66*200) * 1333 / (1000 / 60)
+Rs = (15.66*0.25) * 1333 / (1000 / 60)
 
 Gs = 1 / Rs
 Gs_u = Hu_factor * Gs
