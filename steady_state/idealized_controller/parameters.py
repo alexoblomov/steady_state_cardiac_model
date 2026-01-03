@@ -25,8 +25,8 @@ dP_RA = 2 * 1333
 # 1/2 factor to average over compartment height (bernoulli's principle - 
 # fluid dynamics)
 
-Hu_patient = 0.5*32*0.78 # (heart 2 eyeball)
-Hl_patient = -0.5*42*0.78 # (heart 2 seat)
+Hu_patient = 0.5*32 # (heart 2 eyeball)
+Hl_patient = -0.5*42 # (heart 2 seat)
 lumped_height = Hu_patient + (-Hl_patient)
 
 Hu_factor = 1/3
@@ -37,7 +37,7 @@ rho = 1
 g_earth = 980
 
 # resistance of systemic arteries
-Rs = (15.66) * 1333 / (1000 / 60)
+Rs = (15.66*200) * 1333 / (1000 / 60)
 
 Gs = 1 / Rs
 Gs_u = Hu_factor * Gs
